@@ -5,7 +5,7 @@
 //int FirstDigit = num / 10;
 //int SecondDigit = num % 10;
 
-//if (num > 99 || num<10)
+//if (num>99 || num<10)
 //{
 //    Console.WriteLine("düzgün eded daxil edin");
 //}
@@ -30,10 +30,10 @@
 
 //Console.WriteLine("eded daxil edin:");
 //int num = Convert.ToInt32(Console.ReadLine());
-//if (num <= 1) { Console.WriteLine("ne sade ne mürekkeb ededdir"); }
+//if (num<=1) { Console.WriteLine("ne sade ne mürekkeb ededdir"); }
 
 //for(int i=2; i<num; i++)
-//{ if(num % i != 0)
+//{ if(num%i != 0)
 //    {
 //        Console.WriteLine("sade ededdir");
 //        break;
@@ -57,7 +57,7 @@
 //Console.WriteLine("Ededi daxil edin:");
 //int num = Convert.ToInt32(Console.ReadLine());
 
-//if (num <= 0)
+//if (num<=0)
 //{
 //    Console.WriteLine("qüvveti deyil");
 //}
@@ -66,14 +66,14 @@
 //    bool isPowerOfTwo = true;
 
     
-//    while (num > 1)
+//    while (num>1)
 //    {
-//        if (num % 2 != 0)
+//        if (num%2 != 0)
 //        {
 //            isPowerOfTwo = false;
 //            break;
 //        }
-//        num /= 2;
+//        num/= 2;
 //    }
 
 //    if (isPowerOfTwo)
